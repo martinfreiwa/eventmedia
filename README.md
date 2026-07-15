@@ -19,6 +19,10 @@ The module also includes focused subpackages:
 - `moderation` validates approval decisions and display audiences;
 - `network` evaluates venue Wi-Fi, mobile, and fallback upload tests;
 - `archive` validates immutable export counts and checksum evidence.
+- `consent` validates event-media notice and permission records;
+- `receipt` validates completed browser-upload receipts;
+- `display` checks live-screen publication decisions;
+- `deletion` validates media-removal request workflows.
 
 The library is platform-neutral. For an implementation example of a browser-based QR upload workflow, see [Gathmo's event media flow](https://gathmo.com/how-it-works).
 
