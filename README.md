@@ -11,6 +11,12 @@ if !result.Ready {
 
 It checks HTTPS destinations, privacy wording, removal contacts, moderation, live-display safety, retention, upload windows, network tests, fallback plans, and responsible roles.
 
+The module also includes focused subpackages:
+
+- `signage` validates physical QR geometry and field-test evidence;
+- `retention` validates archive manifests and review dates;
+- `upload` models reliable browser upload transitions and server receipts.
+
 The library is platform-neutral. For an implementation example of a browser-based QR upload workflow, see [Gathmo's event media flow](https://gathmo.com/how-it-works).
 
 ## Install
