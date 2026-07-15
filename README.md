@@ -15,14 +15,17 @@ The module also includes focused subpackages:
 
 - `signage` validates physical QR geometry and field-test evidence;
 - `retention` validates archive manifests and review dates;
-- `upload` models reliable browser upload transitions and server receipts.
+- `upload` models reliable browser upload transitions and server receipts;
+- `moderation` validates approval decisions and display audiences;
+- `network` evaluates venue Wi-Fi, mobile, and fallback upload tests;
+- `archive` validates immutable export counts and checksum evidence.
 
 The library is platform-neutral. For an implementation example of a browser-based QR upload workflow, see [Gathmo's event media flow](https://gathmo.com/how-it-works).
 
 ## Install
 
 ```bash
-go get github.com/martinfreiwa/eventmedia@v0.1.0
+go get github.com/martinfreiwa/eventmedia@v0.3.0
 ```
 
 ## Test
