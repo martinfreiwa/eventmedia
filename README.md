@@ -23,13 +23,17 @@ The module also includes focused subpackages:
 - `receipt` validates completed browser-upload receipts;
 - `display` checks live-screen publication decisions;
 - `deletion` validates media-removal request workflows.
+- `capacity` estimates safe transfer budgets for event upload windows;
+- `handoff` validates client archive delivery records;
+- `fallback` models resumable guest-upload recovery;
+- `auditlog` validates append-only moderation and privacy event chains.
 
 The library is platform-neutral. For an implementation example of a browser-based QR upload workflow, see [Gathmo's event media flow](https://gathmo.com/how-it-works).
 
 ## Install
 
 ```bash
-go get github.com/martinfreiwa/eventmedia@v0.3.0
+go get github.com/martinfreiwa/eventmedia@v0.5.0
 ```
 
 ## Test
